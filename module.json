@@ -1,0 +1,49 @@
+{   
+   "name": "Samurai",   
+   "title": "Samurai",   
+   "description": "Containing all features of the Samurai Archetype",   
+   "authors": [
+	   {
+		   "name":"Aaron Brandon",
+		   "email":"abrandon2718@gmail.com"
+	   },
+	   {
+	       "name": "James Beck",
+		   "url": "https://www.eldritchosirisgames.com/"
+		   
+	   }
+   ],
+		   
+   "version": "1.0",
+   "minimumCoreVersion": "9",
+   "compatibleCoreVersion":"9",
+   "packs": [
+    {
+      "name": "items",
+      "label": "Samurai Features",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "module": "Samurai"
+    }
+  ],
+   "dependencies": [
+    {
+      "name": "pf2e",
+      "type": "system"
+    }
+  ],
+  "flags": {
+  	"Samurai": {
+		"pf2e-homebrew": {
+			"featTraits": {
+				"samurai": "Samurai"
+			}
+		}
+	}
+  },
+  "url": "https://github.com/abrandon2718/Samurai",
+  "manifest": "https://raw.githubusercontent.com/abrandon2718/Samurai/master/module.json",
+  "download": "https://github.com/abrandon2718/Samurai/archive/refs/heads/main.zip"
+
+
+}
