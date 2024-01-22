@@ -1,22 +1,17 @@
 {   
-   "name": "Samurai",   
-   "title": "Samurai",   
+   "name": "Samurai Updated",   
+   "title": "Samurai Updated",   
    "description": "Containing all features of the Samurai Archetype",   
    "authors": [
 	   {
-		   "name":"Aaron Brandon",
-		   "email":"abrandon2718@gmail.com"
-	   },
-	   {
-	       "name": "James Beck",
-		   "url": "https://www.eldritchosirisgames.com/"
-		   
+		   "name":"Bianca",
+		   "email":"bianca.milandri@gmail.com"
 	   }
    ],
 		   
    "version": "1.0",
-   "minimumCoreVersion": "9",
-   "compatibleCoreVersion":"9",
+   "minimumCoreVersion": "11",
+   "compatibleCoreVersion":"11",
    "packs": [
     {
       "name": "items",
@@ -41,9 +36,9 @@
 		}
 	}
   },
-  "url": "https://github.com/abrandon2718/Samurai",
-  "manifest": "https://raw.githubusercontent.com/abrandon2718/Samurai/master/module.json",
-  "download": "https://github.com/abrandon2718/Samurai/archive/refs/heads/main.zip"
+  "url": "https://github.com/gmilandri/Samurai",
+  "manifest": "https://raw.githubusercontent.com/gmilandri/Samurai/main/module.json",
+  "download": "https://github.com/gmilandri/Samurai/archive/refs/heads/main.zip"
 
 
 }
